@@ -481,3 +481,110 @@
     </div>
   </div>
 </div>
+
+<div class="hero min-h-[60vh] mt-12">
+  <div class="hero-content text-center pb-16 pt-4 px-4">
+    <div class="max-w-4xl">
+      <div
+        class="text-3xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent mt-4 pb-2"
+      >
+        ベトナム語通訳者派遣サービス
+      </div>
+      <div class="mt-8 text-lg md:text-xl leading-relaxed">
+        <p class="mb-6">
+          お客様が指定された日時にベトナム語通訳者を派遣いたします。ビジネスから医療まで、あらゆる場面で高品質な通訳サービスを提供し、言語の壁を取り除きます。
+        </p>
+        <div class="grid md:grid-cols-2 gap-8 mt-10">
+          <div class="bg-white shadow-lg rounded-lg p-6">
+            <h3 class="text-xl font-bold mb-4 text-gray-800">
+              🌐 リアルタイム通訳サービス
+            </h3>
+            <p class="text-gray-600">
+              ビデオ会議、電話会議、対面会議において、認定を受けたベトナム語通訳者による即座の通訳サービスを提供します。同時通訳・逐次通訳の両方に対応し、クリアな音質で円滑なコミュニケーションを実現します。
+            </p>
+          </div>
+          <div class="bg-white shadow-lg rounded-lg p-6">
+            <h3 class="text-xl font-bold mb-4 text-gray-800">
+              📋 文書翻訳サービス
+            </h3>
+            <p class="text-gray-600">
+              法的文書、契約書、医療記録、技術文書などの専門的な翻訳サービスを提供します。すべての翻訳は認定ベトナム語言語学者によって精度と文化的適切性が確認されています。
+            </p>
+          </div>
+          <div class="bg-white shadow-lg rounded-lg p-6">
+            <h3 class="text-xl font-bold mb-4 text-gray-800">
+              🏢 ビジネス通訳サービス
+            </h3>
+            <p class="text-gray-600">
+              ビジネス会議、交渉、カンファレンス、商談会などに特化した通訳者を派遣します。業界特有の専門用語とビジネス文化に精通した通訳者が効果的なコミュニケーションをサポートします。
+            </p>
+          </div>
+          <div class="bg-white shadow-lg rounded-lg p-6">
+            <h3 class="text-xl font-bold mb-4 text-gray-800">
+              ⚕️ 医療・法律専門サービス
+            </h3>
+            <p class="text-gray-600">
+              医療診察、法的手続き、法廷での審理に対応する認定通訳者を派遣します。医療・法律専門用語に精通し、厳格な守秘義務規定に従って訓練された通訳者が対応いたします。
+            </p>
+          </div>
+        </div>
+        <div class="mt-10">
+          <div
+            class="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-lg p-6"
+          >
+            <h3 class="text-xl font-bold mb-4 text-gray-800">
+              🔒 セキュリティと認定資格
+            </h3>
+            <p class="text-gray-600 mb-4">
+              当社のベトナム語通訳者は以下の条件を満たしています：
+            </p>
+            <ul class="text-gray-600 text-left max-w-2xl mx-auto space-y-2">
+              <li>
+                • 認定翻訳・通訳協会による公式認定資格を保有
+              </li>
+              <li>
+                • 専門資格と経歴の厳格な身元調査と検証を完了
+              </li>
+              <li>
+                • 守秘義務プロトコルと業界標準の徹底的な訓練を受講
+              </li>
+              <li>• 文化的ニュアンスと地方方言に関する豊富な経験</li>
+              <li>• 緊急通訳ニーズに対応する24時間365日の対応体制</li>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-10">
+          <div
+            class="bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200 rounded-lg p-6"
+          >
+            <h3 class="text-xl font-bold mb-4 text-gray-800">
+              📞 お問い合わせ方法
+            </h3>
+            <p class="text-gray-600 mb-4">
+              ベトナム語通訳者派遣サービスをご利用になりたい場合は、以下の方法でお気軽にお問い合わせください：
+            </p>
+            <div class="grid md:grid-cols-2 gap-6 mt-6">
+              <div class="text-left">
+                <h4 class="font-bold text-gray-800 mb-2">電話でのお問い合わせ</h4>
+                <p class="text-gray-600">📞 フリーダイヤル: 0120-XXX-XXX</p>
+                <p class="text-gray-600">営業時間: 平日 9:00-18:00</p>
+                <p class="text-gray-600">緊急時: 24時間対応可能</p>
+              </div>
+              <div class="text-left">
+                <h4 class="font-bold text-gray-800 mb-2">オンラインお問い合わせ</h4>
+                <p class="text-gray-600">📧 メール: info@example.com</p>
+                <p class="text-gray-600">🌐 ウェブフォーム: 専用お問い合わせページ</p>
+                <p class="text-gray-600">⏰ 24時間以内に回答いたします</p>
+              </div>
+            </div>
+            <div class="mt-6">
+              <button class="btn btn-primary btn-lg">
+                今すぐお問い合わせ
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
