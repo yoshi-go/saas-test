@@ -1,6 +1,8 @@
 **/.svelte-kit/
 **/node_modules/
 **/package-lock.json
+**/CLAUDE.md
+**/.devcontainer/
 
 # Don't format plaintext email templates, the new lines are important
 src/lib/emails/*_text.svelte
