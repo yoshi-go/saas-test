@@ -435,7 +435,7 @@
   <div class="hero-content text-center pb-16 pt-4 px-4">
     <div class="max-w-4xl">
       <div
-        class="text-3xl md:text-5xl font-bold bg-clip-text text-transparent bg-linear-to-r from-primary to-accent mt-4 pb-2"
+        class="text-3xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent mt-4 pb-2"
       >
         Original Features
       </div>
