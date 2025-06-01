@@ -34,8 +34,8 @@
     </div>
   {/if}
 
-  <form 
-    method="POST" 
+  <form
+    method="POST"
     class="space-y-6"
     use:enhance={() => {
       isSubmitting = true
@@ -162,11 +162,7 @@
     </div>
 
     <div class="flex gap-4 pt-4">
-      <button 
-        type="submit" 
-        class="btn btn-primary"
-        disabled={isSubmitting}
-      >
+      <button type="submit" class="btn btn-primary" disabled={isSubmitting}>
         {#if isSubmitting}
           <span class="loading loading-spinner loading-sm"></span>
           Creating...

@@ -29,7 +29,10 @@ export const load: PageServerLoad = async ({
 }
 
 export const actions: Actions = {
-  delete: async ({ request, locals: { safeGetSession, supabaseServiceRole } }) => {
+  delete: async ({
+    request,
+    locals: { safeGetSession, supabaseServiceRole },
+  }) => {
     const { session, user } = await safeGetSession()
     if (!session || !user?.id) {
       return fail(401, { message: "Unauthorized" })

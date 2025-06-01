@@ -31,7 +31,11 @@ export const load: PageServerLoad = async ({
 }
 
 export const actions: Actions = {
-  default: async ({ params, request, locals: { safeGetSession, supabaseServiceRole } }) => {
+  default: async ({
+    params,
+    request,
+    locals: { safeGetSession, supabaseServiceRole },
+  }) => {
     const { session, user } = await safeGetSession()
     if (!session || !user?.id) {
       return fail(401, { message: "Unauthorized" })
@@ -49,9 +53,17 @@ export const actions: Actions = {
 
     // Validation
     if (!name?.trim()) {
-      return fail(400, { 
+      return fail(400, {
         message: "Class name is required",
-        values: { name, description, instructor, startDate, endDate, capacity, price }
+        values: {
+          name,
+          description,
+          instructor,
+          startDate,
+          endDate,
+          capacity,
+          price,
+        },
       })
     }
 
@@ -62,7 +74,15 @@ export const actions: Actions = {
       if (end <= start) {
         return fail(400, {
           message: "End date must be after start date",
-          values: { name, description, instructor, startDate, endDate, capacity, price }
+          values: {
+            name,
+            description,
+            instructor,
+            startDate,
+            endDate,
+            capacity,
+            price,
+          },
         })
       }
     }
@@ -74,14 +94,30 @@ export const actions: Actions = {
     if (capacity && (isNaN(capacityNum!) || capacityNum! < 1)) {
       return fail(400, {
         message: "Capacity must be a positive number",
-        values: { name, description, instructor, startDate, endDate, capacity, price }
+        values: {
+          name,
+          description,
+          instructor,
+          startDate,
+          endDate,
+          capacity,
+          price,
+        },
       })
     }
 
     if (price && (isNaN(priceNum!) || priceNum! < 0)) {
       return fail(400, {
         message: "Price must be a non-negative number",
-        values: { name, description, instructor, startDate, endDate, capacity, price }
+        values: {
+          name,
+          description,
+          instructor,
+          startDate,
+          endDate,
+          capacity,
+          price,
+        },
       })
     }
 
@@ -102,9 +138,17 @@ export const actions: Actions = {
 
     if (updateError) {
       console.error("Error updating class:", updateError)
-      return fail(500, { 
+      return fail(500, {
         message: "Failed to update class. Please try again.",
-        values: { name, description, instructor, startDate, endDate, capacity, price }
+        values: {
+          name,
+          description,
+          instructor,
+          startDate,
+          endDate,
+          capacity,
+          price,
+        },
       })
     }
 

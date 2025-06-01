@@ -539,15 +539,9 @@
               当社のベトナム語通訳者は以下の条件を満たしています：
             </p>
             <ul class="text-gray-600 text-left max-w-2xl mx-auto space-y-2">
-              <li>
-                • 認定翻訳・通訳協会による公式認定資格を保有
-              </li>
-              <li>
-                • 専門資格と経歴の厳格な身元調査と検証を完了
-              </li>
-              <li>
-                • 守秘義務プロトコルと業界標準の徹底的な訓練を受講
-              </li>
+              <li>• 認定翻訳・通訳協会による公式認定資格を保有</li>
+              <li>• 専門資格と経歴の厳格な身元調査と検証を完了</li>
+              <li>• 守秘義務プロトコルと業界標準の徹底的な訓練を受講</li>
               <li>• 文化的ニュアンスと地方方言に関する豊富な経験</li>
               <li>• 緊急通訳ニーズに対応する24時間365日の対応体制</li>
             </ul>
@@ -565,15 +559,21 @@
             </p>
             <div class="grid md:grid-cols-2 gap-6 mt-6">
               <div class="text-left">
-                <h4 class="font-bold text-gray-800 mb-2">電話でのお問い合わせ</h4>
+                <h4 class="font-bold text-gray-800 mb-2">
+                  電話でのお問い合わせ
+                </h4>
                 <p class="text-gray-600">📞 フリーダイヤル: 0120-XXX-XXX</p>
                 <p class="text-gray-600">営業時間: 平日 9:00-18:00</p>
                 <p class="text-gray-600">緊急時: 24時間対応可能</p>
               </div>
               <div class="text-left">
-                <h4 class="font-bold text-gray-800 mb-2">オンラインお問い合わせ</h4>
+                <h4 class="font-bold text-gray-800 mb-2">
+                  オンラインお問い合わせ
+                </h4>
                 <p class="text-gray-600">📧 メール: info@example.com</p>
-                <p class="text-gray-600">🌐 ウェブフォーム: 専用お問い合わせページ</p>
+                <p class="text-gray-600">
+                  🌐 ウェブフォーム: 専用お問い合わせページ
+                </p>
                 <p class="text-gray-600">⏰ 24時間以内に回答いたします</p>
               </div>
             </div>
