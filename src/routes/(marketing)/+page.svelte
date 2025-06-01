@@ -430,3 +430,54 @@
     </div>
   </div>
 </div>
+
+<div class="hero min-h-[60vh] mt-12">
+  <div class="hero-content text-center pb-16 pt-4 px-4">
+    <div class="max-w-4xl">
+      <div
+        class="text-3xl md:text-5xl font-bold bg-clip-text text-transparent bg-linear-to-r from-primary to-accent mt-4 pb-2"
+      >
+        Original Features
+      </div>
+      <div class="mt-8 text-lg md:text-xl leading-relaxed">
+        <p class="mb-6">
+          このアプリケーションは、中級・上級のベトナム語学習者向けに、AIを活用した個別最適化された学習教材を自動生成する革新的なプラットフォームです。
+        </p>
+        <div class="grid md:grid-cols-2 gap-8 mt-10">
+          <div class="bg-white shadow-lg rounded-lg p-6">
+            <h3 class="text-xl font-bold mb-4 text-gray-800">
+              🧠 アダプティブ学習システム
+            </h3>
+            <p class="text-gray-600">
+              学習者の理解度と進捗を自動分析し、個人の弱点に特化したベトナム語の文法問題、語彙練習、読解問題を動的に生成します。機械学習により、最も効果的な学習パスを提案します。
+            </p>
+          </div>
+          <div class="bg-white shadow-lg rounded-lg p-6">
+            <h3 class="text-xl font-bold mb-4 text-gray-800">
+              📚 コンテキスト学習教材
+            </h3>
+            <p class="text-gray-600">
+              実際のベトナムのビジネス文書、ニュース記事、文学作品から抽出したリアルなコンテキストを基に、実践的な学習問題を自動作成。文化的ニュアンスも含めた包括的な学習体験を提供します。
+            </p>
+          </div>
+          <div class="bg-white shadow-lg rounded-lg p-6">
+            <h3 class="text-xl font-bold mb-4 text-gray-800">
+              🎯 発音矯正システム
+            </h3>
+            <p class="text-gray-600">
+              音声認識技術を活用し、ベトナム語特有の6つの声調を正確に判定。リアルタイムフィードバックで発音の改善点を視覚的に表示し、ネイティブレベルの発音習得をサポートします。
+            </p>
+          </div>
+          <div class="bg-white shadow-lg rounded-lg p-6">
+            <h3 class="text-xl font-bold mb-4 text-gray-800">
+              💼 専門分野別カリキュラム
+            </h3>
+            <p class="text-gray-600">
+              IT、医療、法律、観光など、学習者の専門分野に特化したベトナム語教材を自動生成。業界固有の専門用語と表現パターンを効率的に習得できます。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
